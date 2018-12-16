@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 public class ChronologicalChainImpl implements ChronologicalChain {
 
-    public void start() throws ParseException, InterruptedException, FileNotFoundException {
+    public void makeChronologicalChain() throws ParseException, InterruptedException, FileNotFoundException {
         Packer packer = new Packer();
         Map<Date, String> map = packer.pack();
         DateFormat dateFormatFromJSON = new SimpleDateFormat("mm:ss");

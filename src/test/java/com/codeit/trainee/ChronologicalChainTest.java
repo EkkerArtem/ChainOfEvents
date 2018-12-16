@@ -15,7 +15,7 @@ public class ChronologicalChainTest {
         long start = System.currentTimeMillis();
 
         ChronologicalChain chain = new ChronologicalChainImpl();
-        chain.start();
+        chain.makeChronologicalChain();
 
         long finish = System.currentTimeMillis();
 

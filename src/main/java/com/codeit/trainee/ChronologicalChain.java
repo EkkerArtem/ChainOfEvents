@@ -17,6 +17,6 @@ public interface ChronologicalChain {
      * @throws InterruptedException  thrown when a thread is waiting, sleeping, or otherwise occupied, and the thread is interrupted, either before or during the activity. It can be thrown in this fragment of code {@code TimeUnit.SECONDS.sleep()}
      * @throws FileNotFoundException if there is no events.json file.
      */
-    void start() throws ParseException, InterruptedException, FileNotFoundException;
+    void makeChronologicalChain() throws ParseException, InterruptedException, FileNotFoundException;
 
 }
